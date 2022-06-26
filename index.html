@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- <link rel="stylesheet" href="../dist/output.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="px-20 py-10 header shadow-2xl ">
+      <h2 class="text-3xl">Afnan Ahmad</h2>
+      <nav class="navbar">
+        <ul class="flex gap-20 navbar-lists">
+          <li class="uppercase">
+            <a
+              href="index.html"
+              class="inline-block text-2xl font-medium navbar-link"
+              >Home</a
+            >
+          </li>
+          <li class="uppercase">
+            <a
+              href="about.html"
+              class="inline-block text-2xl font-medium navbar-link"
+              >About</a
+            >
+          </li>
+          <li class="uppercase">
+            <a
+              href="services.html"
+              class="inline-block text-2xl font-medium navbar-link"
+              >Services</a
+            >
+          </li>
+          <li class="uppercase">
+            <a
+              href="https://afnan9565.github.io/"
+              class="inline-block text-2xl font-medium navbar-link"
+              >Projects</a
+            >
+          </li>
+          <li class="uppercase">
+            <a href="https://wa.me/919431071966" class="inline-block text-2xl font-medium navbar-link"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon mobile-nav-open"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon mobile-nav-close"></ion-icon>
+      </div>
+    </header>
+    <main>
+      <!-- =================================================
+                     Our Main Section Starts
+        ================================================= -->
+      <section class="section-hero section" id="home">
+        <div class="section-hero-image">
+          <img src="img/hero-img.jpg" alt="My pic" class="hero-img hero-img-mob rounded-full" />
+        </div>
+        <div class="containers grid grid-cols-2 gap-36 hero" id="layout">
+          <div
+            class="section-hero-data flex flex-col justify-center items-start"
+          >
+            <p class="hero-top-data uppercase font-medium text-2xl">
+              this is me
+            </p>
+            <div class="mobile-kl">
+              <h1 class="hero-heading uppercase font-bold ">
+                Afnan Ahmad
+              </h1>
+            </div>
+            <p class="hero-para mt-6 mb-20">
+              I'm Afnan Ahmad. A Front-end web developer and freelancer. Don't
+              judge me by my age
+            </p>
+            <div class="btn-respon">
+              <a
+                href="https://wa.me/919431071966"
+                class="rounded-lg btn uppercase text-[1.6rem] hover:shadow-2xl transition-all duration-[0.3s] ease-linear hover:rounded-3xl"
+                >Hire me</a
+              >
+            </div>
+          </div>
+          <div class="section-hero-image">
+            <img src="img/hero-img.jpg" alt="My pic" class="hero-img hero-img-pc rounded-full" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="section section-review">
+      <div class="containers">
+        <h2 class="common-heading text-5xl font-semibold font-kam">
+          What our Clients think about us
+        </h2>
+        <img src="img/line.png" alt="" class="relative right-3 line" />
+      </div>
+      <div class="containers">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/review images/01.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/review images/02.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/review images/03.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/review images/04.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- =================================================
+                    Our Counter Section Starts
+       ================================================= -->
+    <section class="sections section-counter w-full">
+      <div class="containers grid grid-cols-4 counterr">
+        <div class="counter-items">
+          <h2 class="counter-head">50 +</h2>
+          <h3 class="counter-desc">Website Projects</h3>
+        </div>
+        <div class="counter-items">
+          <h2 class="counter-head">600 +</h2>
+          <h3 class="counter-desc">Hours of Coding</h3>
+        </div>
+        <div class="counter-items">
+          <h2 class="counter-head">5</h2>
+          <h3 class="counter-desc">Mobile Apps</h3>
+        </div>
+        <div class="counter-items flex-row">
+          <span class="counter-head">50 +</span>
+          <h3 class="counter-desc">Trusted Clients</h3>
+        </div>
+      </div>
+    </section>
+      <!-- ===============================================
+              Footer Section Starts here 
+          ================================================-->
+          <section class=" section-footer">
+            <div class="containers-f">
+              <footer>
+                <div class="footer-top">
+                  <div class="footer-social">
+                    <h3 class="footer-head">
+                      SOCIAL
+                    </h3>
+                    <a href="https://www.instagram.com/blackmoon_563/"><ion-icon name="logo-instagram" class="footer-icons insta"></ion-icon></a>
+                    <a href="https://github.com/Afnan9565"><ion-icon name="logo-github" class="footer-icons"></ion-icon></a>
+                    <a href="https://codepen.io/afnannewbie"><ion-icon name="logo-codepen" class="footer-icons"></ion-icon></a>
+                    <a href="https://wa.me/919431071966"><ion-icon name="logo-whatsapp" class="footer-icons"></ion-icon></a>
+                  </div>
+                  <div class="footer-pages">
+                    <h3 class="footer-head">
+                      PAGES
+                    </h3>
+                    <ul>
+                      <li class="footer-headi"><a href="index.html">Home</a></li>
+                      <li class="footer-headi"><a href="about.html">About</a></li>
+                      <li class="footer-headi"><a href="services.html">Services</a></li>
+                      <li class="footer-headi"><a href="afnan9565.github.io">Projects</a></li>
+                      <li class="footer-headi"><a href="https://wa.me/919431071966">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-address pc-ver">
+                    <h3 class="footer-head">
+                      ADDRESS
+                    </h2>
+                    <address class="footer-headi">
+                      Afnan Ahmad <br>
+                      302, Hussain Apartment Behind Gargee Grand Hotel Lane <br>
+                      Exhibition Road <br>
+                      Patna - 800001, Bihar <br>
+                      India
+                    </address>
+                    <a href="https://goo.gl/maps/DnKaY33TK8YzCRKg8" class="footer-headi underline">Get Directions</a>
+                  </div>
+                </div>
+                <div class="footer-address mobile-ver">
+                  <h3 class="footer-head">
+                    ADDRESS
+                  </h2>
+                  <address class="footer-headi">
+                    Afnan Ahmad <br>
+                    302, Hussain Apartment Behind Gargee Grand Hotel Lane <br>
+                    Exhibition Road <br>
+                    Patna - 800001, Bihar <br>
+                    India
+                  </address>
+                  <a href="https://goo.gl/maps/DnKaY33TK8YzCRKg8" class="footer-headi underline">Get Directions</a>
+                </div>
+                <div class="footer-bottom">
+                  <h3 class="footer-headi">
+                    Copyright &copy; 2022 Afnan Ahmad
+                  </h3>
+                </div>
+              </footer>
+            </div>
+          </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
