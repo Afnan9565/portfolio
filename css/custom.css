@@ -332,3 +332,7 @@ footer{
   height: 3;
   margin-left:0.5rem ;
 }
+.special-round{
+  border-top-left-radius:2rem;
+  border-bottom-right-radius:2rem;
+}
